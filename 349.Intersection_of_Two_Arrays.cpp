@@ -8,7 +8,7 @@
 
 class Solution {
 public:
-		vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+	vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
 		vector<int> result;
 		set<int> s;
 		for (int i = 0; i < nums1.size(); i++)
